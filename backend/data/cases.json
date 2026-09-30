@@ -1,0 +1,202 @@
+[
+  {
+    "id": "BX-2024-001",
+    "title": "Downtown Warehouse Homicide",
+    "category": "homicide",
+    "status": "closed",
+    "bloodType": "O+",
+    "date": "2024-01-15",
+    "location": "Sector 5 Industrial",
+    "excerpt": "Multiple blood stain patterns identified at warehouse crime scene. Spatter analysis confirmed blunt force trauma consistent with autopsy findings.",
+    "tags": ["Blood Spatter", "Luminol", "Serology"],
+    "evidence": [
+      { "label": "Pattern Type", "value": "Impact spatter, cast-off" },
+      { "label": "Blood Type Match", "value": "O+ (Confirmed)" },
+      { "label": "Luminol Result", "value": "Positive – cleaned areas" },
+      { "label": "DNA Profile", "value": "STR 16/16 loci match" }
+    ],
+    "findings": [
+      "Blood spatter consistent with blunt force impact at 45° angle",
+      "Luminol revealed extensive cleanup attempts in 3 zones",
+      "Victim and suspect DNA both present – mixed profile separated",
+      "Cast-off pattern on ceiling confirmed weapon trajectory"
+    ],
+    "summary": "Warehouse homicide with extensive blood evidence. Spatter analysis revealed blunt force trauma mechanism. Luminol detected cleaned blood in 3 areas. DNA STR profiling matched suspect with 16/16 loci.",
+    "resolution": "Suspect convicted. Blood evidence was primary forensic link tying suspect to the scene and the weapon used."
+  },
+  {
+    "id": "BX-2024-002",
+    "title": "Riverfront Assault Investigation",
+    "category": "assault",
+    "status": "active",
+    "bloodType": "A-",
+    "date": "2024-03-22",
+    "location": "Harbor District",
+    "excerpt": "Victim sustained lacerations. Blood trail analysis mapped suspect's movement through the scene and identified secondary transfer evidence.",
+    "tags": ["Blood Trail", "Transfer Pattern", "ABO Typing"],
+    "evidence": [
+      { "label": "Pattern Type", "value": "Passive drip trail, transfer" },
+      { "label": "Blood Type", "value": "A- (Victim), O+ (Suspect)" },
+      { "label": "Trail Length", "value": "47 meters" },
+      { "label": "Transfer Surfaces", "value": "Door handle, railing, fabric" }
+    ],
+    "findings": [
+      "Passive drip trail established movement from point of assault to exit",
+      "Secondary transfer on door handle matched suspect's ABO type",
+      "Directionality of drops confirmed victim's path toward medical help",
+      "Fabric impression transfer consistent with assailant's clothing"
+    ],
+    "summary": "Assault near the riverfront with clear blood trail documenting victim and suspect movement. ABO typing differentiated two contributors. Transfer evidence on surfaces traced suspect's escape route.",
+    "resolution": "Investigation ongoing. Suspect identified via transfer blood evidence on exit door handle."
+  },
+  {
+    "id": "BX-2024-003",
+    "title": "Cold Case #447 – Suburb Residence",
+    "category": "cold-case",
+    "status": "review",
+    "bloodType": "B+",
+    "date": "2019-11-08",
+    "location": "Greenfield Suburb",
+    "excerpt": "Re-examination of preserved blood samples using modern STR analysis. New DNA profiles generated from degraded evidence previously deemed inconclusive.",
+    "tags": ["Cold Case", "STR Analysis", "Degraded Sample"],
+    "evidence": [
+      { "label": "Original Analysis", "value": "1992 – ABO only" },
+      { "label": "Re-analysis", "value": "2024 STR profiling" },
+      { "label": "Sample Condition", "value": "Partially degraded" },
+      { "label": "New Profile", "value": "12/16 loci recovered" }
+    ],
+    "findings": [
+      "Original 1992 analysis limited to ABO blood grouping only",
+      "Modern STR profiling recovered 12 of 16 loci from degraded stains",
+      "New partial profile entered into CODIS – pending hit notification",
+      "Secondary sample from fabric yielded additional 4 loci for composite"
+    ],
+    "summary": "Cold case reopened with advanced STR profiling applied to 30+ year old preserved blood evidence. Partial DNA profile generated and submitted to national database.",
+    "resolution": "Under review. Awaiting CODIS database match results from newly generated STR profile."
+  },
+  {
+    "id": "BX-2024-004",
+    "title": "Nightclub Altercation – DNA Match",
+    "category": "dna",
+    "status": "closed",
+    "bloodType": "AB+",
+    "date": "2024-05-10",
+    "location": "Central Entertainment District",
+    "excerpt": "DNA profiling of blood evidence from broken glass fragments linked suspect to aggravated assault. Full STR match confirmed identity.",
+    "tags": ["DNA Match", "Glass Fragment", "STR Profile"],
+    "evidence": [
+      { "label": "Source", "value": "Broken glass (blood residue)" },
+      { "label": "Blood Type", "value": "AB+ (Suspect)" },
+      { "label": "STR Result", "value": "Full 16/16 loci match" },
+      { "label": "Database", "value": "CODIS hit confirmed" }
+    ],
+    "findings": [
+      "Blood on broken glass edges matched suspect's DNA profile exactly",
+      "AB+ blood type rare enough to narrow suspect pool immediately",
+      "CODIS search returned positive match to previously convicted individual",
+      "Glass fragment trajectory analysis consistent with aggressive strike"
+    ],
+    "summary": "Nightclub assault case solved through DNA profiling of blood found on broken glass. Full STR match linked suspect who was already in CODIS from prior conviction.",
+    "resolution": "Suspect arrested and charged. DNA evidence from glass fragments served as conclusive forensic link."
+  },
+  {
+    "id": "BX-2024-005",
+    "title": "Vehicle Collision – Blood Evidence",
+    "category": "homicide",
+    "status": "active",
+    "bloodType": "O-",
+    "date": "2024-06-18",
+    "location": "Highway 9 Overpass",
+    "excerpt": "Suspected hit-and-run with blood evidence found on vehicle bumper. Serological analysis matched victim's blood type and DNA to evidence on car.",
+    "tags": ["Hit-and-Run", "Vehicle Evidence", "Serology"],
+    "evidence": [
+      { "label": "Sample Location", "value": "Front bumper, undercarriage" },
+      { "label": "Blood Type", "value": "O- (Victim)" },
+      { "label": "DNA Status", "value": "14/16 loci match" },
+      { "label": "Additional", "value": "Fabric fibers embedded" }
+    ],
+    "findings": [
+      "Blood spatter on bumper consistent with pedestrian impact velocity",
+      "O- blood type matched victim's hospital records",
+      "DNA STR from bumper sample: 14/16 loci match to victim",
+      "Embedded fabric fibers matched victim's clothing material"
+    ],
+    "summary": "Hit-and-run investigation with blood evidence recovered from suspect vehicle. Serological and DNA analysis confirmed victim contact. Fabric fiber analysis provided supplementary evidence.",
+    "resolution": "Active investigation. Vehicle owner identified; awaiting suspect interview and formal charges."
+  },
+  {
+    "id": "BX-2024-006",
+    "title": "Residential Break-In – Blood on Entry Point",
+    "category": "assault",
+    "status": "closed",
+    "bloodType": "A+",
+    "date": "2024-02-28",
+    "location": "Oakwood Heights",
+    "excerpt": "Suspect cut themselves on broken window during forced entry. Blood drops on window sill and floor provided DNA profile leading to identification.",
+    "tags": ["Forced Entry", "Blood Drop", "DNA Profile"],
+    "evidence": [
+      { "label": "Entry Point", "value": "Ground floor window" },
+      { "label": "Blood Type", "value": "A+ (Suspect)" },
+      { "label": "Drop Pattern", "value": "Passive drip, directional" },
+      { "label": "DNA Result", "value": "Full profile – CODIS match" }
+    ],
+    "findings": [
+      "Passive blood drops on window sill indicated suspect's hand injury",
+      "Directional analysis of floor drops mapped suspect's path through residence",
+      "A+ blood type not matching any residents – confirmed as intruder's",
+      "CODIS database returned match to known offender within 48 hours"
+    ],
+    "summary": "Residential burglary solved through suspect's own blood left at point of forced entry. Directional drop analysis traced movement inside. CODIS match identified repeat offender.",
+    "resolution": "Suspect apprehended based on CODIS DNA match. Convicted of aggravated burglary with assault."
+  },
+  {
+    "id": "BX-2024-007",
+    "title": "Park Stabbing Incident",
+    "category": "homicide",
+    "status": "review",
+    "bloodType": "B-",
+    "date": "2024-04-05",
+    "location": "Meridian Park",
+    "excerpt": "Multiple victims in park stabbing. Blood from the weapon and scene collected for serological differentiation of contributors.",
+    "tags": ["Multiple Victims", "Weapon Analysis", "Blood Differentiation"],
+    "evidence": [
+      { "label": "Weapon", "value": "Kitchen knife – 3 blood types" },
+      { "label": "Scene Blood", "value": "4 distinct ABO groups" },
+      { "label": "Victims", "value": "3 injured, 1 fatal" },
+      { "label": "Contributors", "value": "4 individuals differentiated" }
+    ],
+    "findings": [
+      "Kitchen knife yielded blood from 3 different contributors (A+, B-, O+)",
+      "Scene stains differentiated into 4 distinct profiles using ABO+Rh",
+      "Fatal victim (B-) had blood concentrated at primary attack zone",
+      "Suspect's blood (A+) found on knife handle – self-inflicted cut"
+    ],
+    "summary": "Complex park stabbing with multiple victims requiring careful serological differentiation. Four unique blood profiles separated through ABO and Rh typing combined with spatial analysis.",
+    "resolution": "Under judicial review. Blood evidence differentiation critical to establishing assault sequence and identifying the primary attacker."
+  },
+  {
+    "id": "BX-2024-008",
+    "title": "Forensic Lab QC – Contamination Audit",
+    "category": "dna",
+    "status": "closed",
+    "bloodType": "AB-",
+    "date": "2024-07-12",
+    "location": "Central Forensic Lab",
+    "excerpt": "Internal quality control audit uncovered cross-contamination in batch processing. AB- control sample detected in unrelated case evidence.",
+    "tags": ["Quality Control", "Contamination", "Lab Audit"],
+    "evidence": [
+      { "label": "Issue", "value": "Cross-contamination detected" },
+      { "label": "Control Type", "value": "AB- reference standard" },
+      { "label": "Affected Cases", "value": "3 cases flagged" },
+      { "label": "Root Cause", "value": "Shared pipette tip" }
+    ],
+    "findings": [
+      "AB- control DNA detected in 3 unrelated case samples",
+      "Root cause traced to improper pipette tip change between samples",
+      "All affected cases re-processed with new evidence collection",
+      "Lab protocol updated with mandatory dual-operator verification"
+    ],
+    "summary": "Quality control audit revealed laboratory cross-contamination affecting 3 cases. Root cause analysis identified procedural failure. All affected evidence re-processed and new protocols implemented.",
+    "resolution": "Contamination resolved. Lab procedures updated with dual verification. Affected case evidence re-analyzed with clean results."
+  }
+]

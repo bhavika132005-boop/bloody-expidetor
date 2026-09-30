@@ -1,0 +1,16 @@
+{
+  "bloodTypes": [
+    { "type": "O+", "frequency": 37.4, "rarity": "common", "antigen": "None", "antibodies": "Anti-A, Anti-B", "canDonateTo": "O+, A+, B+, AB+", "canReceiveFrom": "O+, O-" },
+    { "type": "O-", "frequency": 6.6, "rarity": "uncommon", "antigen": "None", "antibodies": "Anti-A, Anti-B", "canDonateTo": "Universal Donor", "canReceiveFrom": "O-" },
+    { "type": "A+", "frequency": 35.7, "rarity": "common", "antigen": "A", "antibodies": "Anti-B", "canDonateTo": "A+, AB+", "canReceiveFrom": "A+, A-, O+, O-" },
+    { "type": "A-", "frequency": 6.3, "rarity": "uncommon", "antigen": "A", "antibodies": "Anti-B", "canDonateTo": "A+, A-, AB+, AB-", "canReceiveFrom": "A-, O-" },
+    { "type": "B+", "frequency": 8.5, "rarity": "moderate", "antigen": "B", "antibodies": "Anti-A", "canDonateTo": "B+, AB+", "canReceiveFrom": "B+, B-, O+, O-" },
+    { "type": "B-", "frequency": 1.5, "rarity": "rare", "antigen": "B", "antibodies": "Anti-A", "canDonateTo": "B+, B-, AB+, AB-", "canReceiveFrom": "B-, O-" },
+    { "type": "AB+", "frequency": 3.4, "rarity": "rare", "antigen": "A and B", "antibodies": "None", "canDonateTo": "AB+", "canReceiveFrom": "Universal Recipient" },
+    { "type": "AB-", "frequency": 0.6, "rarity": "very-rare", "antigen": "A and B", "antibodies": "None", "canDonateTo": "AB+, AB-", "canReceiveFrom": "A-, B-, AB-, O-" }
+  ],
+  "secretorStatus": {
+    "secretor": { "frequency": 80, "description": "Secretes ABO antigens in saliva & body fluids" },
+    "nonSecretor": { "frequency": 20, "description": "Does not secrete ABO antigens in body fluids" }
+  }
+}

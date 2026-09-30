@@ -1,0 +1,69 @@
+{
+  "fluids": ["Blood", "Saliva", "Semen", "Sweat", "Urine", "Tears"],
+  "matrix": [
+    [1.00, 0.72, 0.45, 0.33, 0.28, 0.18],
+    [0.72, 1.00, 0.38, 0.52, 0.41, 0.55],
+    [0.45, 0.38, 1.00, 0.22, 0.19, 0.12],
+    [0.33, 0.52, 0.22, 1.00, 0.61, 0.44],
+    [0.28, 0.41, 0.19, 0.61, 1.00, 0.35],
+    [0.18, 0.55, 0.12, 0.44, 0.35, 1.00]
+  ],
+  "fluidDetails": [
+    {
+      "name": "Blood",
+      "icon": "droplet",
+      "color": "#dc2626",
+      "description": "Primary forensic fluid. Contains DNA, proteins, ABO antigens, and hemoglobin markers. Most commonly analyzed in criminal investigations.",
+      "detection": "Luminol, Kastle-Meyer, HemaTrace",
+      "cooccurrence": "72%"
+    },
+    {
+      "name": "Saliva",
+      "icon": "droplets",
+      "color": "#f59e0b",
+      "description": "Contains epithelial cells rich in DNA. Secretor status determines presence of ABO antigens. Found on cigarettes, cups, bite marks.",
+      "detection": "Amylase test, Phadebas",
+      "cooccurrence": "68%"
+    },
+    {
+      "name": "Semen",
+      "icon": "flask-conical",
+      "color": "#3b82f6",
+      "description": "Critical in sexual assault cases. Contains spermatozoa and seminal plasma. Acid phosphatase testing used for preliminary identification.",
+      "detection": "AP test, PSA/P30, Christmas Tree stain",
+      "cooccurrence": "45%"
+    },
+    {
+      "name": "Sweat",
+      "icon": "thermometer",
+      "color": "#10b981",
+      "description": "Touch DNA source. Contains trace DNA from shed epithelial cells. Often found on handled objects, clothing, and grip surfaces.",
+      "detection": "Touch DNA extraction, skin cell analysis",
+      "cooccurrence": "52%"
+    },
+    {
+      "name": "Urine",
+      "icon": "beaker",
+      "color": "#8b5cf6",
+      "description": "Contains urea, creatinine, and trace DNA. Tamm-Horsfall protein is the primary confirmatory marker. Less DNA-rich than other fluids.",
+      "detection": "ELISA for THP, urea/creatinine assay",
+      "cooccurrence": "41%"
+    },
+    {
+      "name": "Tears",
+      "icon": "eye",
+      "color": "#ec4899",
+      "description": "Contains lysozyme and lactoferrin proteins. Rare forensic specimen. Can yield DNA but typically low quantity and quality.",
+      "detection": "Lysozyme assay, lactoferrin ELISA",
+      "cooccurrence": "18%"
+    }
+  ],
+  "cooccurrenceData": [
+    { "pair": "Blood + Saliva", "percentage": 72, "context": "Frequently co-located at assault and homicide scenes" },
+    { "pair": "Sweat + Urine", "percentage": 61, "context": "Common in prolonged confinement or struggle scenarios" },
+    { "pair": "Saliva + Tears", "percentage": 55, "context": "Found together in emotional confrontation evidence" },
+    { "pair": "Saliva + Sweat", "percentage": 52, "context": "Associated with physical altercation and proximity evidence" },
+    { "pair": "Blood + Semen", "percentage": 45, "context": "Present in sexual assault cases involving physical injury" },
+    { "pair": "Saliva + Urine", "percentage": 41, "context": "Biological profile evidence in confinement cases" }
+  ]
+}
